@@ -1,0 +1,78 @@
+Installing ‘Perseus’ monitoring system
+
+Prerequisites:
+Linux CentOS v5, 32 bit
+Make sure that PostgreSQL and PostGIS are not installed.
+The following Navteq data is required:
+
+Historical data for USA	USA_mr.csv
+USA_f.csv
+USA_ss.csv
+Streets for each (!) state	Traffic.dbf
+Streets.shx
+Streets.shp
+Streets.prj
+Streets.dbf
+Streets.cpg
+Rdms.dbf
+MtdDST.dbf
+MtdArea.dbf
+Cdms.dbf’
+
+Process:
+Choose any directory on PC and create three directories ‘hist’,’geodata’, and ’utils’ in it.
+Those directories are temporary. They can be removed after installation.
+
+Put the historical data into the ‘hist’ directory.
+
+In the ‘geodata’ directory create a separate directory for each state (for example D1_1, D1_2, D2_1, etc) and put 10 files with street data there.
+
+Put all the files from the ‘perseus.zip’ archive into the ‘utils’ directory.
+
+Make sure that the ‘install.sh’ file is executable file (run ‘chmod 755 install.sh’ for it).
+
+Log in as root.
+Start ‘install.sh’ with 2 parameters:
+1.	name of an existing user in the system;
+2.	the full path to the working directory where the ‘ToMapMatch’, ‘ToScore’, ‘MapMatched’, and ‘Scored’ directories are located. Note that the user specified in the first parameter should have read/write access to this directory.
+
+For example: 
+“./install.sh devel home/devel/work”
+
+Monitoring system will start automatically at the end of the script execution.
+
+After the script is finished, the temporary directories (utils, geodata, hist) can be removed.
+
+######################
+
+bool PgSQLQueryExecutor::getLinksWithinDistance( bool isBigDist, 
+                                                 const std::string& tbl, 
+                                                 const Common::WorldPoint& wp, 
+                                                 const char* lon,
+                                                 const char* lat )
+{
+    char giswp[64];
+    if( lon == 0 || lat == 0 )
+        sprintf( giswp, "ST_GeogFromText(\'POINT(%f %f)\')", wp.lon(), wp.lat() );
+    else
+        sprintf( giswp, "ST_GeogFromText(\'POINT(%s %s)\')", lon, lat );
+    
+    char str[256];
+    int dist = isBigDist ? BIG_LOOKUP_RADIUS : LOOKUP_RADIUS;
+    sprintf(str, "SELECT link_id, ST_Distance(geog, %s) FROM %s_streets "
+                 "WHERE ST_DWithin(geog, %s, %d, false) AND ( ar_auto=\'Y\' OR ar_trucks=\'Y\' )",
+                 giswp, tbl.c_str(), giswp, dist );
+
+    /*sprintf(str, "SELECT link_id, ST_Distance(%s, geog) FROM %s_streets "
+                 "WHERE ( ar_auto='Y' OR ar_trucks='Y' ) AND ST_Intersects(ST_Buffer(%s,%d), geog);",
+                 giswp, tbl.c_str(), giswp , dist );*/
+
+    return m_sql->DebugQuery(str);
+}
+
+1. The POINT() function is a constructor and returns a POINT object. 
+2. The ST_GeogFromText() function returns a Geog Object from the POINT object.
+3. The next sql query "SELECT link_id .... " Selects a list of link_ids that are within a given distance from the geog object. 
+
+You should modify that query to order the list by distance ASC and then select only the first record.
+

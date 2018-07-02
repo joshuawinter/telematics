@@ -1,0 +1,14 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS default.TELETRAC_GPS(
+Date_time	String,
+Journey_Id	String,	   
+Latitude	String,	   
+Longitude	String,	   
+Speed	String,	   
+Bearing	String,	   
+Quality	String	 
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+LOCATION '/tele/teletrac/source/ugps'
+

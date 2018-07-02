@@ -1,0 +1,39 @@
+select
+*
+,st_distance(geog,'0101000020E61000004A24D1CB28B651C05D6DC5FEB2974540') as dist
+from nh_streets
+where
+st_dwithin(geog,'0101000020E61000004A24D1CB28B651C05D6DC5FEB2974540',1,false)
+--and st_name = 'MALLARD LN'
+--and l_postcode = '03820'
+order by gid asc
+
+
+
+
+-- 70.84624 43.18515,-70.84605 43.18558,-70.84589 43.18586,-70.84566 43.18611,-70.84537 43.18634,-70.84513 43.18651,-70.84496 43.1867,-70.84492 43.18686,-70.84495 43.18703,-70.84498 43.18721,-70.84498 43.18741,-70.84493 43.18759,-70.8447 43.18782
+
+use pm_hdp_weather;
+SELECT ST_GeomFromText('point(-70.84605 43.18558)',4326) FROM claims LIMIT 1;
+SELECT ST_Point(longitude, latitude) from src LIMIT 1;
+SELECT ST_AsText(ST_GeomFromText('point(-70.84605 43.18558)',4326)) FROM claims LIMIT 1;
+
+
+
+
+,,,,,,,
+
+CREATE EXTERNAL TABLE IF NOT EXISTS default.test_gps(
+	VehicleId		STRING,
+	DateTime		STRING,
+	JourneyId		STRING,
+	Latitude		STRING,
+	Longitude		STRING,
+	Speed			STRING,
+	Bearing			STRING,
+	Quality			STRING
+)
+ROW FORMAT DELIMITED
+	FIELDS TERMINATED BY ','
+	LINES TERMINATED BY '\n'
+	LOCATION '/user/n0083510/tsp';

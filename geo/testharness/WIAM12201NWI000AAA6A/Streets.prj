@@ -1,0 +1,223 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Apr18 ?        00:00:04 /sbin/init
+root         2     0  0 Apr18 ?        00:00:00 [kthreadd]
+root         3     2  0 Apr18 ?        00:00:05 [migration/0]
+root         4     2  0 Apr18 ?        00:00:08 [ksoftirqd/0]
+root         5     2  0 Apr18 ?        00:00:00 [watchdog/0]
+root         6     2  0 Apr18 ?        00:00:07 [migration/1]
+root         7     2  0 Apr18 ?        00:00:08 [ksoftirqd/1]
+root         8     2  0 Apr18 ?        00:00:00 [watchdog/1]
+root         9     2  0 Apr18 ?        00:00:29 [events/0]
+root        10     2  0 Apr18 ?        00:08:04 [events/1]
+root        11     2  0 Apr18 ?        00:00:00 [cpuset]
+root        12     2  0 Apr18 ?        00:00:00 [khelper]
+root        13     2  0 Apr18 ?        00:00:00 [netns]
+root        14     2  0 Apr18 ?        00:00:00 [async/mgr]
+root        15     2  0 Apr18 ?        00:00:00 [pm]
+root        16     2  0 Apr18 ?        00:00:00 [sync_supers]
+root        17     2  0 Apr18 ?        00:00:00 [bdi-default]
+root        18     2  0 Apr18 ?        00:00:00 [kintegrityd/0]
+root        19     2  0 Apr18 ?        00:00:00 [kintegrityd/1]
+root        20     2  0 Apr18 ?        00:00:07 [kblockd/0]
+root        21     2  0 Apr18 ?        00:00:10 [kblockd/1]
+root        22     2  0 Apr18 ?        00:00:00 [kacpid]
+root        23     2  0 Apr18 ?        00:00:00 [kacpi_notify]
+root        24     2  0 Apr18 ?        00:00:00 [kacpi_hotplug]
+root        25     2  0 Apr18 ?        01:36:44 [ata/0]
+root        26     2  0 Apr18 ?        00:05:11 [ata/1]
+root        27     2  0 Apr18 ?        00:00:00 [ata_aux]
+root        28     2  0 Apr18 ?        00:00:00 [ksuspend_usbd]
+root        29     2  0 Apr18 ?        00:00:00 [khubd]
+root        30     2  0 Apr18 ?        00:00:00 [kseriod]
+root        33     2  0 Apr18 ?        00:00:01 [khungtaskd]
+root        34     2  0 Apr18 ?        00:00:18 [kswapd0]
+root        35     2  0 Apr18 ?        00:00:00 [ksmd]
+root        36     2  0 Apr18 ?        00:01:02 [khugepaged]
+root        37     2  0 Apr18 ?        00:00:00 [aio/0]
+root        38     2  0 Apr18 ?        00:00:00 [aio/1]
+root        39     2  0 Apr18 ?        00:00:00 [crypto/0]
+root        40     2  0 Apr18 ?        00:00:00 [crypto/1]
+root        45     2  0 Apr18 ?        00:00:00 [pciehpd]
+root        47     2  0 Apr18 ?        00:00:00 [kpsmoused]
+root        48     2  0 Apr18 ?        00:00:00 [usbhid_resumer]
+root        77     2  0 Apr18 ?        00:00:00 [kstriped]
+root       271     2  0 Apr18 ?        00:00:00 [scsi_eh_0]
+root       272     2  0 Apr18 ?        00:46:45 [scsi_eh_1]
+root       284     2  0 Apr18 ?        00:00:00 [scsi_eh_2]
+root       285     2  0 Apr18 ?        00:00:00 [vmw_pvscsi_wq_2]
+root       342     2  0 Apr18 ?        00:04:44 [flush-8:0]
+root       345     2  0 Apr18 ?        00:02:34 [jbd2/sda2-8]
+root       346     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       347     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       424     1  0 Apr18 ?        00:00:00 /sbin/udevd -d
+root       594     2  0 Apr18 ?        00:09:47 [vmmemctl]
+root       773     2  0 Apr18 ?        00:00:32 [kdmflush]
+root       817     2  0 Apr18 ?        00:00:00 [jbd2/sda1-8]
+root       818     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       819     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       820     2  0 Apr18 ?        00:01:49 [jbd2/sda3-8]
+root       821     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       822     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       823     2  0 Apr18 ?        00:03:27 [jbd2/dm-0-8]
+root       824     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       825     2  0 Apr18 ?        00:00:00 [ext4-dio-unwrit]
+root       941     2  0 Apr18 ?        00:00:20 [kauditd]
+root      1320     1  0 Apr18 ?        09:57:57 /usr/sbin/vmtoolsd
+root      1424     1  0 Apr18 ?        00:00:56 auditd
+root      1449     1  0 Apr18 ?        00:00:26 /sbin/rsyslogd -c 4
+root      1490     1  0 Apr18 ?        00:28:42 irqbalance
+rpc       1508     1  0 Apr18 ?        00:00:00 rpcbind
+root      1522     1  0 Apr18 ?        00:00:00 mdadm --monitor --scan -f --pid-file=/var/run/mdadm/mdadm.pid
+dbus      1588     1  0 Apr18 ?        00:03:36 dbus-daemon --system
+root      1598     1  0 Apr18 ?        00:00:14 NetworkManager --pid-file=/var/run/NetworkManager/NetworkManager.pid
+root      1602     1  0 Apr18 ?        00:00:04 /usr/sbin/modem-manager
+root      1611  1598  0 Apr18 ?        00:00:02 /sbin/dhclient -d -4 -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhclient/dhclient-5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+avahi     1615     1  0 Apr18 ?        00:00:05 avahi-daemon: running [VDDP13P-43EA50A.local]
+avahi     1616  1615  0 Apr18 ?        00:00:00 avahi-daemon: chroot helper
+root      1629     1  0 Apr18 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -B -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+rpcuser   1634     1  0 Apr18 ?        00:00:00 rpc.statd
+root      1682     2  0 Apr18 ?        00:00:00 [rpciod/0]
+root      1683     2  0 Apr18 ?        00:00:00 [rpciod/1]
+root      1690     1  0 Apr18 ?        00:00:00 rpc.idmapd
+root      1727     1  0 Apr18 ?        00:00:00 /usr/sbin/acpid
+68        1736     1  0 Apr18 ?        00:01:03 hald
+root      1737  1736  0 Apr18 ?        00:00:00 hald-runner
+root      1780  1737  0 Apr18 ?        00:00:00 hald-addon-input: Listening on /dev/input/event2 /dev/input/event0
+root      1784  1737  0 Apr18 ?        00:29:15 hald-addon-storage: polling /dev/sr0 (every 2 sec)
+68        1787  1737  0 Apr18 ?        00:00:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+root      1804     1  0 Apr18 ?        00:00:00 pcscd
+root      1872     1  0 Apr18 ?        00:00:11 automount --pid-file /var/run/autofs.pid
+root      1889     1  0 Apr18 ?        00:00:07 /usr/sbin/sshd
+root      1899     1  0 Apr18 ?        00:00:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+ntp       1911     1  0 Apr18 ?        00:00:18 ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+root      1931     1  0 Apr18 ?        00:00:05 sendmail: Queue runner@01:00:00 for /var/spool/mqueue
+smmsp     1941     1  0 Apr18 ?        00:00:05 sendmail: Queue runner@01:00:00 for /var/spool/clientmqueue
+hdfs      2693     1  0 Apr18 ?        00:17:42 /usr/java/latest/bin/java -Dproc_secondarynamenode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -Dhadoop.log.file=hadoop-hdfs-secondarynamenode-VDDP13P-43EA50A.log -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.id.str=hdfs -Dhadoop.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=INFO,RFAS org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+yarn      2988     1  0 Apr18 ?        00:01:31 /usr/java/latest/bin/java -Dproc_resourcemanager -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-VDDP13P-43EA50A.log -Dyarn.log.file=yarn-yarn-resourcemanager-VDDP13P-43EA50A.log -Dyarn.home.dir=/usr/lib/hadoop-yarn -Dhadoop.home.dir=/usr/lib/hadoop-yarn -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -classpath /etc/hadoop/conf:/etc/hadoop/conf:/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-0.20-mapreduce/./:/usr/lib/hadoop-0.20-mapreduce/lib/*:/usr/lib/hadoop-0.20-mapreduce/.//*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-yarn/lib/*:/etc/hadoop/conf/rm-config/log4j.properties org.apache.hadoop.yarn.server.resourcemanager.ResourceManager
+494       3226     1  0 Apr18 ?        00:01:19 /usr/java/jdk1.6.0_25/bin/java -Dzookeeper.datadir.autocreate=false -Dzookeeper.log.dir=/var/log/zookeeper -Dzookeeper.root.logger=INFO,ROLLINGFILE -cp /usr/lib/zookeeper/bin/../build/classes:/usr/lib/zookeeper/bin/../build/lib/*.jar:/usr/lib/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/lib/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/lib/zookeeper/bin/../lib/netty-3.2.2.Final.jar:/usr/lib/zookeeper/bin/../lib/log4j-1.2.15.jar:/usr/lib/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/lib/zookeeper/bin/../zookeeper-3.4.3-cdh4.1.2.jar:/usr/lib/zookeeper/bin/../src/java/lib/*.jar:/etc/zookeeper/conf::/etc/zookeeper/conf:/usr/lib/zookeeper/*:/usr/lib/zookeeper/lib/* -Dzookeeper.log.threshold=INFO -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.local.only=false org.apache.zookeeper.server.quorum.QuorumPeerMain /etc/zookeeper/conf/zoo.cfg
+root      3280     1  0 Apr18 ?        00:00:00 jsvc.exec -Djavax.xml.stream.XMLInputFactory=com.ctc.wstx.stax.WstxInputFactory -Djavax.xml.stream.XMLOutputFactory=com.ctc.wstx.stax.WstxOutputFactory -Djavax.xml.stream.XMLEventFactory=com.ctc.wstx.stax.WstxEventFactory -Djava.rmi.server.hostname=127.0.0.1 -Dderby.stream.error.file=/var/opt/novell/zenworks/derby.log -Djava.rmi.server.hostname=127.0.0.1 -Xms64m -Xmx512m -XX:PermSize=16m -XX:MaxPermSize=128m -nodowngrade -jvm server -user root -home /opt/novell/zenworks/share/zmd/java -outfile /var/opt/novell/zenworks/novell-zenworks-xplatzmd.out -pidfile /var/run/novell-zenworks-xplatzmd.pid -errfile &1 -cp /opt/novell/zenworks/share/zmd/java/lib/tools.jar:/opt/novell/zenworks/lib/commons-daemon.jar:/opt/novell/zenworks/zmd/java/lib/core/org.eclipse.osgi_3.4.0.v20080605-1900.jar:/opt/novell/zenworks/zmd/java/lib/core/zmdcommons.jar:/opt/novell/zenworks/lib/zmd-client.jar:/opt/novell/zenworks/lib/XplatDaemon.jar:/opt/novell/zenworks/zmd/java/lib/core/uninstall-zmd-interface_11.1.0.jar:/opt/novell/zenworks/lib/uninstall-zmd-interface-11.1.0-client.jar:/opt/novell/zenworks/zmd/java/lib/core/uninstall-agent_11.1.0.jar:/opt/novell/zenworks/lib/uninstall-agent-11.1.0-client.jar:/opt/novell/zenworks/lib/app-launcher-client.jar com.novell.zenworks.agent.daemon.XplatDaemon -configuration /opt/novell/zenworks/zmd/java/lib/configuration
+root      3293     1  0 Apr18 ?        00:03:34 crond
+hive      3309     1  0 Apr18 ?        00:01:22 /usr/java/latest/bin/java -Xmx256m -Dhive.log.dir=/var/log/hive -Dhive.log.file=hive-metastore.log -Dhive.log.threshold=INFO -Dhadoop.log.dir=//usr/lib/hadoop/logs -Dhadoop.log.file=hadoop.log -Dhadoop.home.dir=//usr/lib/hadoop -Dhadoop.id.str= -Dhadoop.root.logger=INFO,console -Djava.library.path=//usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=INFO,NullAppender org.apache.hadoop.util.RunJar /usr/lib/hive/lib/hive-service-0.9.0-cdh4.1.2.jar org.apache.hadoop.hive.metastore.HiveMetaStore
+root      3313     1  0 May16 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root      3322  3990  0 May16 ?        00:00:24 gnome-session
+hive      3330     1  0 Apr18 ?        00:01:48 /usr/java/latest/bin/java -Xmx256m -Dhive.log.dir=/var/log/hive -Dhive.log.file=hive-server.log -Dhive.log.threshold=INFO -Dhadoop.log.dir=//usr/lib/hadoop/logs -Dhadoop.log.file=hadoop.log -Dhadoop.home.dir=//usr/lib/hadoop -Dhadoop.id.str= -Dhadoop.root.logger=INFO,console -Djava.library.path=//usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=INFO,NullAppender org.apache.hadoop.util.RunJar /usr/lib/hive/lib/hive-service-0.9.0-cdh4.1.2.jar org.apache.hadoop.hive.service.HiveServer
+root      3333     1  0 May16 ?        00:00:00 dbus-launch --sh-syntax --exit-with-session
+root      3334     1  0 May16 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      3378     1  0 May16 ?        00:01:17 /usr/libexec/gconfd-2
+root      3384     1  0 May16 ?        00:06:00 /usr/libexec/gnome-settings-daemon
+root      3387     1  0 May16 ?        00:00:08 /usr/libexec/notification-daemon
+root      3389     1  0 May16 ?        00:00:00 /usr/libexec/gvfsd
+root      3395     1  0 May16 ?        00:00:00 /usr/libexec//gvfs-fuse-daemon /root/.gvfs
+root      3403  3322  0 May16 ?        00:00:04 metacity
+root      3407  3322  0 May16 ?        00:01:51 gnome-panel
+root      3408  3322  0 May16 ?        02:55:52 nautilus
+root      3410     1  0 May16 ?        00:00:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=18
+root      3418     1  0 May16 ?        00:00:21 /usr/libexec/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=18
+root      3420     1  0 May16 ?        00:00:00 /usr/libexec/trashapplet --oaf-activate-iid=OAFIID:GNOME_Panel_TrashApplet_Factory --oaf-ior-fd=24
+root      3422     1  0 May16 ?        00:00:02 /usr/libexec/gvfs-gdu-volume-monitor
+root      3430     1  0 May16 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+root      3437  3322  0 May16 ?        00:00:00 gnome-volume-control-applet
+root      3443     1  0 May16 ?        00:12:18 /usr/lib/vmware-tools/sbin/vmtoolsd -n vmusr
+root      3444  3322  0 May16 ?        00:00:24 nm-applet --sm-disable
+root      3448  3322  0 May16 ?        00:01:49 gpk-update-icon
+root      3480  3322  0 May16 ?        00:00:00 /usr/libexec/polkit-gnome-authentication-agent-1
+root      3481  3322  0 May16 ?        00:00:26 gnome-power-manager
+root      3489     1  0 May16 ?        00:03:30 /usr/libexec/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=22
+root      3490     1  0 May16 ?        00:00:00 /usr/libexec/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=34
+root      3491     1  0 May16 ?        00:00:00 /usr/libexec/gdm-user-switch-applet --oaf-activate-iid=OAFIID:GNOME_FastUserSwitchApplet_Factory --oaf-ior-fd=28
+root      3493     1  0 May16 ?        00:00:00 /usr/bin/pulseaudio --start
+root      3500  3493  0 May16 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+root      3551     1  0 Apr18 ?        00:05:01 python2.6 /usr/share/hue/build/env/bin/supervisor -p /var/run/hue/supervisor.pid -l /var/log/hue -d
+hue       3555  3551  0 Apr18 ?        07:47:43 python2.6 /usr/share/hue/build/env/bin/hue runspawningserver
+hue       3558  3551  0 Apr18 ?        00:01:29 /usr/java/latest/bin/java -Xmx1000m -Dlog4j.configuration=log4j.properties -Dhadoop.log.dir=//usr/lib/hadoop/logs -Dhadoop.log.file=hadoop.log -Dhadoop.home.dir=//usr/lib/hadoop -Dhadoop.id.str= -Dhadoop.root.logger=INFO,console -Djava.library.path=//usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=INFO,NullAppender org.apache.hadoop.util.RunJar /usr/share/hue/apps/beeswax/src/beeswax/../../java-lib/BeeswaxServer.jar --beeswax 8002 --desktop-host 127.0.0.1 --desktop-port 8888 --query-lifetime 604800000 --metastore 8003
+root      3639     1  0 Apr18 ?        00:00:00 /usr/sbin/atd
+root      3647     1  0 Apr18 ?        00:00:00 incrond
+root      3658     1  0 Apr18 ?        00:00:02 rhnsd
+root      3755     1  0 Apr18 ?        00:00:07 /usr/sbin/gdm-binary -nodaemon
+root      3760     1  0 Apr18 tty2     00:00:00 /sbin/mingetty /dev/tty2
+root      3762     1  0 Apr18 tty3     00:00:00 /sbin/mingetty /dev/tty3
+root      3764     1  0 Apr18 tty4     00:00:00 /sbin/mingetty /dev/tty4
+root      3766     1  0 Apr18 tty5     00:00:00 /sbin/mingetty /dev/tty5
+root      3770     1  0 Apr18 tty6     00:00:00 /sbin/mingetty /dev/tty6
+root      3808  3755  0 Apr18 ?        00:00:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1 --force-active-vt
+root      3810  3808  0 Apr18 tty1     00:03:53 /usr/bin/Xorg :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-9w1tPa/database -nolisten tcp vt1
+root      3852     1  0 Apr18 ?        00:00:20 /usr/sbin/console-kit-daemon --no-daemon
+gdm       3927     1  0 Apr18 ?        00:00:00 /usr/bin/dbus-launch --exit-with-session
+root      3932     1  0 Apr18 ?        00:00:10 /usr/libexec/devkit-power-daemon
+hue       3968  3555  0 Apr18 ?        00:00:03 /usr/bin/python2.6 -c import sys; from spawning import spawning_child; spawning_child.main() 3555 3 15 spawning.django_factory.config_factory {"app_factory": "spawning.django_factory.app_factory", "access_log_file": "/dev/null", "status_port": 0, "port": 8888, "verbose": null, "deadman_timeout": 1, "source_directories": ["/usr/share/hue/desktop/core/src/desktop"], "pidfile": null, "args": ["desktop.settings"], "max_age": null, "num_processes": 1, "watch": null, "host": "0.0.0.0", "coverage": null, "ssl_private_key": null, "sysinfo": null, "status_host": "0.0.0.0", "ssl_certificate": null, "argv_str": "--factory=spawning.django_factory.config_factory desktop.settings --port 8888 -s 1 -t 0", "no_keepalive": null, "reload": null, "django_settings_module": "desktop.settings", "threadpool_workers": 0}
+root      3981     1  0 Apr18 ?        00:01:04 /usr/libexec/polkit-1/polkitd
+rtkit     3987     1  0 Apr18 ?        00:00:05 /usr/libexec/rtkit-daemon
+root      3990  3808  0 Apr18 ?        00:00:00 pam: gdm-password
+nx        6107     1  0 Aug12 ?        00:00:00 /usr/NX/bin/nxssh -nxservermode -l n0083510 localhost -p 22 -x -2 -i /usr/NX/etc/keys/node.localhost.id_dsa -o PubkeyAuthentication yes -o RSAAuthentication yes -o RhostsAuthentication no -o PasswordAuthentication no -o RhostsRSAAuthentication no -o StrictHostKeyChecking no /usr/NX/bin/nxnode
+root      6108  1889  0 Aug12 ?        00:00:00 sshd: n0083510@notty
+n0083510  6111  6108  0 Aug12 ?        00:00:00 /usr/NX/bin/nxnode
+n0083510  6158  6111  0 Aug12 ?        00:06:27 /usr/NX/bin/nxagent -D -options /home/n0083510/.nx/C-VDDP13P-43EA50A-1012-53053A6108804DD9F3991D4AEB20D7CB/options -name NX - n0083510@VDDP13P-43EA50A:1012 - GNOME@VDDP13P-43EA50A :1012
+nx        6162     1  0 Aug12 ?        00:00:01 nxserver -c /usr/NX/bin/nxserver --login
+n0083510  6213  6111  0 Aug12 ?        00:01:37 /usr/NX/bin/nxnode
+n0083510  6220  6213  0 Aug12 ?        00:00:00 gnome-session
+n0083510  6280     1  0 Aug12 ?        00:00:00 dbus-launch --sh-syntax --exit-with-session
+n0083510  6281     1  0 Aug12 ?        00:00:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+n0083510  6337     1  0 Aug12 ?        00:00:00 /usr/libexec/gconfd-2
+n0083510  6348     1  0 Aug12 ?        00:00:00 gnome-keyring-daemon --start
+n0083510  6352     1  0 Aug12 ?        00:00:00 /usr/libexec/gvfsd
+n0083510  6375  6220  0 Aug12 ?        00:00:09 metacity
+n0083510  6380  6220  0 Aug12 ?        00:00:05 gnome-panel
+n0083510  6382     1  0 Aug12 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+n0083510  6383  6220  0 Aug12 ?        00:00:04 nautilus
+n0083510  6385     1  0 Aug12 ?        00:00:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=18
+n0083510  6387  6382  0 Aug12 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+n0083510  6394  6220  0 Aug12 ?        00:00:00 /bin/sh /opt/novell/zenworks/bin/zicon
+n0083510  6396     1  0 Aug12 ?        00:03:18 /usr/lib/vmware-tools/sbin/vmtoolsd -n vmusr
+n0083510  6407  6220  0 Aug12 ?        00:00:00 gnome-volume-control-applet
+n0083510  6447  6220  0 Aug12 ?        00:00:00 gpk-update-icon
+n0083510  6462     1  0 Aug12 ?        00:00:13 /usr/libexec/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=18
+n0083510  6463     1  0 Aug12 ?        00:00:00 /usr/libexec/gvfs-gdu-volume-monitor
+n0083510  6475  6220  0 Aug12 ?        00:00:00 gnome-power-manager
+n0083510  6485     1  0 Aug12 ?        00:00:03 /usr/libexec/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=19
+n0083510  6486     1  0 Aug12 ?        00:00:00 /usr/libexec/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=26
+n0083510  6488     1  0 Aug12 ?        00:00:00 /usr/libexec/gdm-user-switch-applet --oaf-activate-iid=OAFIID:GNOME_FastUserSwitchApplet_Factory --oaf-ior-fd=23
+n0083510  6492     1  0 Aug12 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+n0083510  6510     1  0 Aug12 ?        00:00:00 /usr/libexec/gvfsd-metadata
+n0083510  6511  6394  0 Aug12 ?        00:00:39 /opt/novell/zenworks/share/zmd/java/bin/java -Xmn64M -Xms128M -Xmx128M -Djava.rmi.server.hostname=127.0.0.1 -cp /opt/novell/zenworks/zmd/java/lib/extensions/zicon.jar:/opt/novell/zenworks/zmd/java/lib/core/zmdcommons.jar:/opt/novell/zenworks/zmd/java/lib/extensions/zbrowser.jar:/opt/novell/zenworks/zmd/java/lib/extensions/swt.jar:/opt/novell/zenworks/zmd/java/lib/extensions/lobo.jar:/opt/novell/zenworks/zmd/java/lib/plugins/ziconserver.jar com.novell.zenworks.agent.zicon.ZLauncher
+n0083510  6524     1  0 Aug12 ?        00:03:19 gedit /home/n0083510/Desktop/scratch
+root      6645     1  0 Apr18 ?        00:00:15 /usr/libexec/udisks-daemon
+root      6665  6645  0 Apr18 ?        00:12:09 udisks-daemon: polling /dev/sr0
+n0083510  8910     1  0 Aug12 ?        00:00:00 /bin/sh /usr/lib64/firefox-3.6/run-mozilla.sh /usr/lib64/firefox-3.6/firefox
+n0083510  8924  8910  0 Aug12 ?        00:08:19 /usr/lib64/firefox-3.6/firefox
+root     13484     1  0 May15 ?        04:06:47 /usr/sbin/vmtoolsd
+root     14143     1  0 May15 ?        00:00:00 cupsd -C /etc/cups/cupsd.conf
+root     14216     1  0 May15 ?        00:00:00 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+root     14225     1  0 May15 ?        00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /dev/vmnet1 vmnet1
+root     14235     1  0 May15 ?        00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet1/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet1.pid vmnet1
+root     14240     1  0 May15 ?        00:00:00 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmware/vmnet8/nat/nat.conf
+root     14244     1  0 May15 ?        00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /dev/vmnet8 vmnet8
+root     14266     1  0 May15 ?        00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet8/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet8.pid vmnet8
+root     14287     1  0 May15 ?        00:00:02 /usr/sbin/vmware-authdlauncher
+apache   15642 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15643 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15644 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15645 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15646 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15647 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15648 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+apache   15649 19251  0 Aug11 ?        00:00:00 /usr/sbin/httpd
+n0083510 16605     1  0 Aug12 ?        00:00:05 /usr/bin/pgadmin3
+root     17981   424  0 Aug12 ?        00:00:00 /sbin/udevd -d
+root     17982   424  0 Aug12 ?        00:00:00 /sbin/udevd -d
+root     18182  3280  0 Aug01 ?        00:15:27 jsvc.exec -Djavax.xml.stream.XMLInputFactory=com.ctc.wstx.stax.WstxInputFactory -Djavax.xml.stream.XMLOutputFactory=com.ctc.wstx.stax.WstxOutputFactory -Djavax.xml.stream.XMLEventFactory=com.ctc.wstx.stax.WstxEventFactory -Djava.rmi.server.hostname=127.0.0.1 -Dderby.stream.error.file=/var/opt/novell/zenworks/derby.log -Djava.rmi.server.hostname=127.0.0.1 -Xms64m -Xmx512m -XX:PermSize=16m -XX:MaxPermSize=128m -nodowngrade -jvm server -user root -home /opt/novell/zenworks/share/zmd/java -outfile /var/opt/novell/zenworks/novell-zenworks-xplatzmd.out -pidfile /var/run/novell-zenworks-xplatzmd.pid -errfile &1 -cp /opt/novell/zenworks/share/zmd/java/lib/tools.jar:/opt/novell/zenworks/lib/commons-daemon.jar:/opt/novell/zenworks/zmd/java/lib/core/org.eclipse.osgi_3.4.0.v20080605-1900.jar:/opt/novell/zenworks/zmd/java/lib/core/zmdcommons.jar:/opt/novell/zenworks/lib/zmd-client.jar:/opt/novell/zenworks/lib/XplatDaemon.jar:/opt/novell/zenworks/zmd/java/lib/core/uninstall-zmd-interface_11.1.0.jar:/opt/novell/zenworks/lib/uninstall-zmd-interface-11.1.0-client.jar:/opt/novell/zenworks/zmd/java/lib/core/uninstall-agent_11.1.0.jar:/opt/novell/zenworks/lib/uninstall-agent-11.1.0-client.jar:/opt/novell/zenworks/lib/app-launcher-client.jar com.novell.zenworks.agent.daemon.XplatDaemon -configuration /opt/novell/zenworks/zmd/java/lib/configuration
+root     19251     1  0 May09 ?        00:00:03 /usr/sbin/httpd
+root     25651  1889  0 08:05 ?        00:00:02 sshd: nx@notty   
+nx       25658 25651  0 08:05 ?        00:00:00 nxserver -c /usr/NX/bin/nxserver --login
+nx       25749 25658  0 08:05 ?        00:00:01 /usr/NX/bin/nxssh -B -E
+n0083510 26319     1  0 08:52 ?        00:00:06 /usr/bin/gnome-terminal -x /opt/bmc/BladeLogic/8.2/NSH/br/nsh-only.sh
+n0083510 26320 26319  0 08:52 ?        00:00:00 gnome-pty-helper
+n0083510 26321 26319  0 08:52 pts/0    00:00:00 /bin/sh /opt/bmc/BladeLogic/8.2/NSH/br/nsh-only.sh
+n0083510 26407 26321  0 08:53 pts/0    00:00:00 /opt/bmc/BladeLogic/8.2/NSH/bin/nsh
+n0083510 26550 26319  0 09:03 pts/1    00:00:00 /bin/sh /opt/bmc/BladeLogic/8.2/NSH/br/nsh.sh
+n0083510 26551 26550  0 09:03 pts/1    00:00:00 /opt/bmc/BladeLogic/8.2/NSH/bin/nsh
+n0083510 26561 26551  0 09:04 pts/1    00:00:00 nexec -i -l vxkit-phdp0001 bash
+root     26953     1  0 09:36 ?        00:00:00 /usr/sbin/packagekitd
+n0083510 26976 26319  0 09:38 pts/2    00:00:00 bash
+n0083510 27018 26976  3 09:38 pts/2    00:00:00 ps -ef
+root     27410     2  0 Apr22 ?        00:01:11 [flush-253:0]
+n0083510 30793     1  0 Apr22 ?        00:50:03 /usr/bin/java -Xms1G -Xmx1G -Djava.util.logging.config.file=logging.properties -Dcom.sun.management.jmxremote -Djava.io.tmpdir=/home/n0083510/workspace/activemq/apache-activemq-5.8.0/tmp -Dactivemq.classpath=/home/n0083510/workspace/activemq/apache-activemq-5.8.0/conf; -Dactivemq.home=/home/n0083510/workspace/activemq/apache-activemq-5.8.0 -Dactivemq.base=/home/n0083510/workspace/activemq/apache-activemq-5.8.0 -Dactivemq.conf=/home/n0083510/workspace/activemq/apache-activemq-5.8.0/conf -Dactivemq.data=/home/n0083510/workspace/activemq/apache-activemq-5.8.0/data -jar /home/n0083510/workspace/activemq/apache-activemq-5.8.0/bin/activemq.jar start xbean:conf/activemq-stomp.xml
